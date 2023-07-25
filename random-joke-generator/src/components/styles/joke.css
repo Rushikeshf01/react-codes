@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 13rem;
+}
+.joke-box{
+    /* position: relative; */
+    /* display: flex; */
+    border: 2px solid red;
+    padding: 10px;
+    width: 500px;
+    height: 150px;
+    left: 30rem;
+    margin: 12px;
+    text-align: center;
+}
+p{
+    font-family: 'Courier New', Courier, monospace
+}
