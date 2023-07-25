@@ -12,6 +12,7 @@ function App() {
   const [country, setCountry] = useState();
   return (
     <div className="App">
+      <Form />
       <select 
       value={country}
       onChange={(e) => {
@@ -29,7 +30,6 @@ function App() {
         })}
       </select>
 
-      <Form />
     </div>
   );
 }
