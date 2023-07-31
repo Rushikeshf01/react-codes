@@ -1,0 +1,23 @@
+.input-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operation-sign{
+    margin: 12px;
+}
+.operation-sign button{
+    margin: 12px;
+    border-radius: 60%;
+    padding: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    /* margin: 12px; */
+}
+.btn button{
+    margin-right: 22rem;
+}
